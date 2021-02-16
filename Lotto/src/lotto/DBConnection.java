@@ -10,10 +10,10 @@ public class DBConnection {
 		
 		Connection conn=null;
 		
-		String url="jdbc:mysql://34.64.186.191:3306/ap";
+		String url="jdbc:mysql://34.97.0.206:3306/lot";
 //		String user="root";
-		String user="shin";
-		String password="0323";
+		String user="god";
+		String password="1004";
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		conn=DriverManager.getConnection(url, user, password);
