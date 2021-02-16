@@ -10,9 +10,11 @@ public class LottoDAO {
 		Connection con = null;   
 		ResultSet rs = null;
 	
-		String url = "jdbc:mysql://34.64.186.191:3306/ap";
-		String user = "shin";
-		String password="arum";
+		String url = "jdbc:mysql://34.97.0.206:3306/lot";
+		//String user = "shin";
+		String user = "god";
+		//String password="arum";
+		String password="1004";
 		      
 		   try {
 		      con = DriverManager.getConnection(url, user, password);
