@@ -12,9 +12,9 @@ public class MainApp {
 	//url= https://dhlottery.co.kr/gameResult.do?method=byWin&drwNo=935
 	private static String URL="https://dhlottery.co.kr/gameResult.do?method=byWin";
 	public static void main(String[] args) throws IOException {
-		int drwNo=935;
+		int drwNo=1;
 		
-		for(int n=drwNo; n>=930; n--) {
+		for(int n=drwNo; n<=10; n++) {
 		//1. url ÆäÀÌÁö Document
 		/* Document doc=Jsoup.connect(URL+getParameter(drwNo)).get(); */
 			Document doc=Jsoup.connect(URL+getParameter(n)).get();
