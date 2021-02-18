@@ -28,7 +28,7 @@ public class MainApp {
 //			System.out.println(++ball+":"+element.toString());
 //			System.out.print(element.toString().split("\">")[1].split("</")[0]+",\n");
 //		}
-		System.out.println(n+"--");
+		System.out.println(n+"ȸ");
 		for(int i=0;i<elements.size();i++) {
 			if(i==elements.size()-1) {
 				System.out.println("bonus:"+elements.get(i).toString().split("\">")[1].split("</")[0]);
